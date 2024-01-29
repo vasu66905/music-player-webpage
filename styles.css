@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b8b3a5;
+}
+
+
+
+main {
+  display: inline-block;
+}
+
+.artist {
+  border-radius: 20px;
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 30px;
+  margin-right: 20px;
+  height: 48vh;
+  width: 58vw;
+  background-color: #949085;
+}
+
+.artist-right {
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.artist img {
+  border-radius: 10px;
+  height: 300px;
+  transition: transform 0.3s;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.artist img:hover {
+  transform: scale(1.1);
+}
+
+.up-next:hover {
+  border-color: greenyellow;
+}
+
+.up-next {
+  border-radius: 10px;
+  background-color: #949085;
+  border: 2px solid #b8b3a5;
+  width: 58vw;
+
+}
+
+.bottom-artist {
+  margin-top: 2rem;
+}
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 15vw;
+  margin-left: 20px;
+}
+
+.top-right {
+  display: block;
+  margin-left: 10px;
+  margin-top: 3rem;
+
+}
+
+.similar-artists {
+  width: 500px;
+  height: 80px;
+  background-color: #949085;
+  border-radius: 10px;
+  border: 2px solid #b8b3a5;
+  transition: border-color 0.4s;
+}
+
+.similar-artists:hover {
+  border-color: greenyellow;
+}
+
+.Recently-played:hover {
+  border-color: greenyellow;
+}
+
+.Recently-played {
+  border: 2px solid #b8b3a5;
+  border-radius: 10px;
+  background-color: #949085;
+  width: 500px;
+  height: 50px;
+}
+
+.custom-icon-tl {
+  font-size: 34px;
+}
+
+.custom-icon-tl:hover {
+  color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.fav-custom {
+  width: 65px;
+  height: 60px;
+  border-radius: 5px;
+  border: 2px solid #949085;
+  transition: border-color 0.4s;
+}
+
+.fav-custom:hover {
+  border-color: white;
+}
+
+.similar-custom {
+  width: 35px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #949085;
+  transition: border-color 0.4s;
+}
+
+.similar-custom:hover {
+  border-color: white;
+}
